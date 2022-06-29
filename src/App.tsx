@@ -1,15 +1,15 @@
 import React from "react";
-import { Feed } from "components/Feed";
+import Feed from "components/Feed";
+import Navbar from "components/Navbar";
+import Sidebar from "components/Sidebar";
+import Rightbar from "components/Rightbar";
 import { Box, Stack } from "@mui/material";
-import { Navbar } from "components/Navbar";
-import { Sidebar } from "components/Sidebar";
-import { Rightbar } from "components/Rightbar";
 
 const App: React.FC = () => {
   return (
     <Box>
+      <Navbar />
       <Stack direction="row" spacing={2} justifyContent="space-between">
-        <Navbar />
         <Sidebar />
         <Feed />
         <Rightbar />

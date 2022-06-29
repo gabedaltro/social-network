@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import React from "react";
 
-export const Sidebar = () => {
+const Sidebar: React.FC = () => {
   return (
     <Box
       bgcolor="skyblue"
@@ -13,3 +13,5 @@ export const Sidebar = () => {
     </Box>
   );
 };
+
+export default Sidebar;

@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import React from "react";
 
-export const Rightbar = () => {
+const Rightbar: React.FC = () => {
   return (
     <Box
       bgcolor="lightcoral"
@@ -13,3 +13,5 @@ export const Rightbar = () => {
     </Box>
   );
 };
+
+export default Rightbar;
